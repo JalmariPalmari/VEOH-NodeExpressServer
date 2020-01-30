@@ -126,7 +126,7 @@ app.use((req, res, next) => {
 
 //Shutdown server CTRL + C in terminal
 
-const mongoose_url = 'mmongodb+srv://dbJan:<Admin>@cluster0-y7oug.mongodb.net/test?retryWrites=true&w=majority';
+const mongoose_url = 'mmongodb+srv://dbadmin:<7VHoV5jiMsYmBFNm>@cluster0-y7oug.mongodb.net/test?retryWrites=true&w=majority';
 
 mongoose.connect(mongoose_url, {
     useUnifiedTopology: true,
